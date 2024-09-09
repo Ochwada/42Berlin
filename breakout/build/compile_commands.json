@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/workspaces/42Berlin/breakout/build",
+  "command": "/usr/bin/cc     -std=gnu11 -o CMakeFiles/main.dir/main.c.o   -c /workspaces/42Berlin/breakout/main.c",
+  "file": "/workspaces/42Berlin/breakout/main.c"
+}
+]
