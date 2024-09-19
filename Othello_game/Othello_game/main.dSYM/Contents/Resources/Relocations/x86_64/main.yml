@@ -2,13 +2,13 @@
 triple:          'x86_64-apple-darwin'
 binary-path:     main
 relocations:
-  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000620, symSize: 0x185 }
-  - { offset: 0x3F, size: 0x8, addend: 0x0, symName: _comp_c, symObjAddr: 0x185, symBinAddr: 0x100000E18, symSize: 0x0 }
-  - { offset: 0x60, size: 0x8, addend: 0x0, symName: _player_c, symObjAddr: 0x186, symBinAddr: 0x100000E19, symSize: 0x0 }
-  - { offset: 0x70, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000620, symSize: 0x185 }
-  - { offset: 0x13B, size: 0x8, addend: 0x0, symName: _reset_board, symObjAddr: 0x0, symBinAddr: 0x1000007B0, symSize: 0x120 }
-  - { offset: 0x162, size: 0x8, addend: 0x0, symName: _reset_board, symObjAddr: 0x0, symBinAddr: 0x1000007B0, symSize: 0x120 }
-  - { offset: 0x1CC, size: 0x8, addend: 0x0, symName: _display, symObjAddr: 0x120, symBinAddr: 0x1000008D0, symSize: 0x190 }
-  - { offset: 0x28A, size: 0x8, addend: 0x0, symName: _valid_moves, symObjAddr: 0x2B0, symBinAddr: 0x100000A60, symSize: 0x310 }
-  - { offset: 0x395, size: 0x8, addend: 0x0, symName: _player_counters, symObjAddr: 0x5C0, symBinAddr: 0x100000D70, symSize: 0x95 }
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001290, symSize: 0x431 }
+  - { offset: 0x3F, size: 0x8, addend: 0x0, symName: _comp_c, symObjAddr: 0x431, symBinAddr: 0x100001D44, symSize: 0x0 }
+  - { offset: 0x60, size: 0x8, addend: 0x0, symName: _player_c, symObjAddr: 0x432, symBinAddr: 0x100001D45, symSize: 0x0 }
+  - { offset: 0x77, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001290, symSize: 0x431 }
+  - { offset: 0x225, size: 0x8, addend: 0x0, symName: _reset_board, symObjAddr: 0x0, symBinAddr: 0x1000016D0, symSize: 0x120 }
+  - { offset: 0x24C, size: 0x8, addend: 0x0, symName: _reset_board, symObjAddr: 0x0, symBinAddr: 0x1000016D0, symSize: 0x120 }
+  - { offset: 0x2B6, size: 0x8, addend: 0x0, symName: _display, symObjAddr: 0x120, symBinAddr: 0x1000017F0, symSize: 0x190 }
+  - { offset: 0x374, size: 0x8, addend: 0x0, symName: _valid_moves, symObjAddr: 0x2B0, symBinAddr: 0x100001980, symSize: 0x310 }
+  - { offset: 0x47F, size: 0x8, addend: 0x0, symName: _player_counters, symObjAddr: 0x5C0, symBinAddr: 0x100001C90, symSize: 0x95 }
 ...

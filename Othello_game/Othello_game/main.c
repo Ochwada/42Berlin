@@ -42,11 +42,21 @@ int main(void)
                     continue;
                 }
 
+                // Debugging: Print valid moves for the player
+                printf("Valid moves for the player: \n");
+                for (int r = 0; r < SIZE; r++) {
+                    for (int c = 0; c < SIZE; c++) {
+                        if (moves[r][c]) {
+                            printf("Row %d, Column %c\n", r + 1, 'a' + c);
+                        }
+                    }   
+                }
+
                 // Get player's move
                 char row_input, col_input;
                 int row, col;
                 do {
-                    printf("Enter your move (row letter followed by column digit): ");
+                    printf("Enter your move (row digit followed by column letter, e.g. 3c): ");
                     scanf(" %c%c", &row_input, &col_input);
                     row = row_input - '1';  // Convert row input to array index
                     col = col_input - 'a';  // Convert column input to array index
@@ -74,11 +84,11 @@ int main(void)
                         if (moves[row][col]) {
                             printf("Computer moves to %d%c\n", (int)row + 1, (char)('a' + col));
                             board[row][col] = comp_c; // Place computer's piece
-                            break;
+                            goto end_computer_move; // Exit both loops once a move is made
                         }
                     }
-                    if (board[row][col] == comp_c) break; // Stop after one move
                 }
+                end_computer_move:;  // Label to break out of nested loops
             }
 
             // Toggle the next player
