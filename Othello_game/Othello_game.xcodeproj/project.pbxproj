@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5F673B732C9CBAF50005A420 /* CopyFiles */ = {
+		5F673B862C9CBD740005A420 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,19 +19,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5F673B752C9CBAF50005A420 /* REVERSI An Othello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "REVERSI An Othello"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F673B882C9CBD740005A420 /* Othello_game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Othello_game; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5F673B772C9CBAF50005A420 /* REVERSI An Othello */ = {
+		5F673B8A2C9CBD740005A420 /* Othello_game */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "REVERSI An Othello";
+			path = Othello_game;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5F673B722C9CBAF50005A420 /* Frameworks */ = {
+		5F673B852C9CBD740005A420 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,19 +41,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5F673B6C2C9CBAF50005A420 = {
+		5F673B7F2C9CBD740005A420 = {
 			isa = PBXGroup;
 			children = (
-				5F673B772C9CBAF50005A420 /* REVERSI An Othello */,
-				5F673B762C9CBAF50005A420 /* Products */,
+				5F673B8A2C9CBD740005A420 /* Othello_game */,
+				5F673B892C9CBD740005A420 /* Products */,
 			);
 			sourceTree = "<group>";
-			usesTabs = 0;
 		};
-		5F673B762C9CBAF50005A420 /* Products */ = {
+		5F673B892C9CBD740005A420 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F673B752C9CBAF50005A420 /* REVERSI An Othello */,
+				5F673B882C9CBD740005A420 /* Othello_game */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,63 +60,63 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F673B742C9CBAF50005A420 /* REVERSI An Othello */ = {
+		5F673B872C9CBD740005A420 /* Othello_game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F673B7C2C9CBAF50005A420 /* Build configuration list for PBXNativeTarget "REVERSI An Othello" */;
+			buildConfigurationList = 5F673B8F2C9CBD740005A420 /* Build configuration list for PBXNativeTarget "Othello_game" */;
 			buildPhases = (
-				5F673B712C9CBAF50005A420 /* Sources */,
-				5F673B722C9CBAF50005A420 /* Frameworks */,
-				5F673B732C9CBAF50005A420 /* CopyFiles */,
+				5F673B842C9CBD740005A420 /* Sources */,
+				5F673B852C9CBD740005A420 /* Frameworks */,
+				5F673B862C9CBD740005A420 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5F673B772C9CBAF50005A420 /* REVERSI An Othello */,
+				5F673B8A2C9CBD740005A420 /* Othello_game */,
 			);
-			name = "REVERSI An Othello";
+			name = Othello_game;
 			packageProductDependencies = (
 			);
-			productName = "REVERSI An Othello";
-			productReference = 5F673B752C9CBAF50005A420 /* REVERSI An Othello */;
+			productName = Othello_game;
+			productReference = 5F673B882C9CBD740005A420 /* Othello_game */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5F673B6D2C9CBAF50005A420 /* Project object */ = {
+		5F673B802C9CBD740005A420 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					5F673B742C9CBAF50005A420 = {
+					5F673B872C9CBD740005A420 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 5F673B702C9CBAF50005A420 /* Build configuration list for PBXProject "REVERSI An Othello" */;
+			buildConfigurationList = 5F673B832C9CBD740005A420 /* Build configuration list for PBXProject "Othello_game" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5F673B6C2C9CBAF50005A420;
+			mainGroup = 5F673B7F2C9CBD740005A420;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5F673B762C9CBAF50005A420 /* Products */;
+			productRefGroup = 5F673B892C9CBD740005A420 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F673B742C9CBAF50005A420 /* REVERSI An Othello */,
+				5F673B872C9CBD740005A420 /* Othello_game */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F673B712C9CBAF50005A420 /* Sources */ = {
+		5F673B842C9CBD740005A420 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -127,7 +126,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5F673B7A2C9CBAF50005A420 /* Debug */ = {
+		5F673B8D2C9CBD740005A420 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		5F673B7B2C9CBAF50005A420 /* Release */ = {
+		5F673B8E2C9CBD740005A420 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +241,7 @@
 			};
 			name = Release;
 		};
-		5F673B7D2C9CBAF50005A420 /* Debug */ = {
+		5F673B902C9CBD740005A420 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -250,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		5F673B7E2C9CBAF50005A420 /* Release */ = {
+		5F673B912C9CBD740005A420 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -261,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F673B702C9CBAF50005A420 /* Build configuration list for PBXProject "REVERSI An Othello" */ = {
+		5F673B832C9CBD740005A420 /* Build configuration list for PBXProject "Othello_game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F673B7A2C9CBAF50005A420 /* Debug */,
-				5F673B7B2C9CBAF50005A420 /* Release */,
+				5F673B8D2C9CBD740005A420 /* Debug */,
+				5F673B8E2C9CBD740005A420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F673B7C2C9CBAF50005A420 /* Build configuration list for PBXNativeTarget "REVERSI An Othello" */ = {
+		5F673B8F2C9CBD740005A420 /* Build configuration list for PBXNativeTarget "Othello_game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F673B7D2C9CBAF50005A420 /* Debug */,
-				5F673B7E2C9CBAF50005A420 /* Release */,
+				5F673B902C9CBD740005A420 /* Debug */,
+				5F673B912C9CBD740005A420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5F673B6D2C9CBAF50005A420 /* Project object */;
+	rootObject = 5F673B802C9CBD740005A420 /* Project object */;
 }
