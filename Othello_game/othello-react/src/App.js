@@ -7,12 +7,12 @@ function App() {
     const loadWasm = async () => {
       try {
         const othelloModule = await import('./wasm/othello.js'); // Load JS glue code
-
-        // Specify the correct path to the .wasm file in the public folder
+  
+        // Ensure that the correct path is used for the .wasm file in the public folder
         othelloModule.locateFile = (file) => {
-          return `/othello.wasm`;  // This references the .wasm file in the public folder
+          return `/othello.wasm`;  // Use the public folder path
         };
-
+  
         othelloModule.onRuntimeInitialized = () => {
           setWasmModule(othelloModule);
         };
@@ -20,9 +20,10 @@ function App() {
         console.error('Error loading WebAssembly module:', err);
       }
     };
-
+  
     loadWasm();
   }, []);
+  
 
   const handleStartGame = () => {
     if (wasmModule) {
