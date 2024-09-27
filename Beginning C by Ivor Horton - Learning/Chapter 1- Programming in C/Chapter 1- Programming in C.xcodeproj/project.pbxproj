@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5F5746F52C9D74DD00BE8421 /* CopyFiles */ = {
+		5F73A29B2CA6CE540007386B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,20 +19,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5F5746F72C9D74DD00BE8421 /* ThreeHeight */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ThreeHeight; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F5747032C9D755B00BE8421 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5F73A29D2CA6CE540007386B /* Chapter 1- Programming in C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Chapter 1- Programming in C"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5F5746F92C9D74DD00BE8421 /* ThreeHeight */ = {
+		5F73A29F2CA6CE540007386B /* Chapter 1- Programming in C */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ThreeHeight;
+			path = "Chapter 1- Programming in C";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5F5746F42C9D74DD00BE8421 /* Frameworks */ = {
+		5F73A29A2CA6CE540007386B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,19 +41,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5F5746EE2C9D74DD00BE8421 = {
+		5F73A2942CA6CE540007386B = {
 			isa = PBXGroup;
 			children = (
-				5F5747032C9D755B00BE8421 /* README.md */,
-				5F5746F92C9D74DD00BE8421 /* ThreeHeight */,
-				5F5746F82C9D74DD00BE8421 /* Products */,
+				5F73A29F2CA6CE540007386B /* Chapter 1- Programming in C */,
+				5F73A29E2CA6CE540007386B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5F5746F82C9D74DD00BE8421 /* Products */ = {
+		5F73A29E2CA6CE540007386B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F5746F72C9D74DD00BE8421 /* ThreeHeight */,
+				5F73A29D2CA6CE540007386B /* Chapter 1- Programming in C */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,63 +60,63 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F5746F62C9D74DD00BE8421 /* ThreeHeight */ = {
+		5F73A29C2CA6CE540007386B /* Chapter 1- Programming in C */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F5746FE2C9D74DD00BE8421 /* Build configuration list for PBXNativeTarget "ThreeHeight" */;
+			buildConfigurationList = 5F73A2A42CA6CE540007386B /* Build configuration list for PBXNativeTarget "Chapter 1- Programming in C" */;
 			buildPhases = (
-				5F5746F32C9D74DD00BE8421 /* Sources */,
-				5F5746F42C9D74DD00BE8421 /* Frameworks */,
-				5F5746F52C9D74DD00BE8421 /* CopyFiles */,
+				5F73A2992CA6CE540007386B /* Sources */,
+				5F73A29A2CA6CE540007386B /* Frameworks */,
+				5F73A29B2CA6CE540007386B /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5F5746F92C9D74DD00BE8421 /* ThreeHeight */,
+				5F73A29F2CA6CE540007386B /* Chapter 1- Programming in C */,
 			);
-			name = ThreeHeight;
+			name = "Chapter 1- Programming in C";
 			packageProductDependencies = (
 			);
-			productName = ThreeHeight;
-			productReference = 5F5746F72C9D74DD00BE8421 /* ThreeHeight */;
+			productName = "Chapter 1- Programming in C";
+			productReference = 5F73A29D2CA6CE540007386B /* Chapter 1- Programming in C */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5F5746EF2C9D74DD00BE8421 /* Project object */ = {
+		5F73A2952CA6CE540007386B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					5F5746F62C9D74DD00BE8421 = {
+					5F73A29C2CA6CE540007386B = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 5F5746F22C9D74DD00BE8421 /* Build configuration list for PBXProject "ThreeHeight" */;
+			buildConfigurationList = 5F73A2982CA6CE540007386B /* Build configuration list for PBXProject "Chapter 1- Programming in C" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5F5746EE2C9D74DD00BE8421;
+			mainGroup = 5F73A2942CA6CE540007386B;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5F5746F82C9D74DD00BE8421 /* Products */;
+			productRefGroup = 5F73A29E2CA6CE540007386B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F5746F62C9D74DD00BE8421 /* ThreeHeight */,
+				5F73A29C2CA6CE540007386B /* Chapter 1- Programming in C */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F5746F32C9D74DD00BE8421 /* Sources */ = {
+		5F73A2992CA6CE540007386B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +126,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5F5746FC2C9D74DD00BE8421 /* Debug */ = {
+		5F73A2A22CA6CE540007386B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		5F5746FD2C9D74DD00BE8421 /* Release */ = {
+		5F73A2A32CA6CE540007386B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +241,7 @@
 			};
 			name = Release;
 		};
-		5F5746FF2C9D74DD00BE8421 /* Debug */ = {
+		5F73A2A52CA6CE540007386B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		5F5747002C9D74DD00BE8421 /* Release */ = {
+		5F73A2A62CA6CE540007386B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -262,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F5746F22C9D74DD00BE8421 /* Build configuration list for PBXProject "ThreeHeight" */ = {
+		5F73A2982CA6CE540007386B /* Build configuration list for PBXProject "Chapter 1- Programming in C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F5746FC2C9D74DD00BE8421 /* Debug */,
-				5F5746FD2C9D74DD00BE8421 /* Release */,
+				5F73A2A22CA6CE540007386B /* Debug */,
+				5F73A2A32CA6CE540007386B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F5746FE2C9D74DD00BE8421 /* Build configuration list for PBXNativeTarget "ThreeHeight" */ = {
+		5F73A2A42CA6CE540007386B /* Build configuration list for PBXNativeTarget "Chapter 1- Programming in C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F5746FF2C9D74DD00BE8421 /* Debug */,
-				5F5747002C9D74DD00BE8421 /* Release */,
+				5F73A2A52CA6CE540007386B /* Debug */,
+				5F73A2A62CA6CE540007386B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5F5746EF2C9D74DD00BE8421 /* Project object */;
+	rootObject = 5F73A2952CA6CE540007386B /* Project object */;
 }
